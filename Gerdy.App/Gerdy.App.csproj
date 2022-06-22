@@ -12,4 +12,10 @@
     <PackageReference Include="OpenAI-DotNet" Version="3.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="GerdyConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
